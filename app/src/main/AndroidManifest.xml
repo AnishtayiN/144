@@ -24,6 +24,11 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <provider
+            android:name="com.anishtayin.pkg144.CrashLogProvider"
+            android:authorities="com.anishtayin.pkg144.crashlog"
+            android:exported="false"
+            android:initOrder="999999"/>
         <activity android:name="com.anishtayin.pkg144.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
