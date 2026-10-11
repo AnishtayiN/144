@@ -9,7 +9,7 @@ if (!libJar.exists()) {
 
 android {
     namespace 'com.anishtayin.pkg144'
-    compileSdk 28
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.rootify"
