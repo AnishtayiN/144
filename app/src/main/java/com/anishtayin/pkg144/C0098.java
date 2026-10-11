@@ -16,7 +16,7 @@ public class C0098 {
 
     /* renamed from: ۥۖۤ⁤⁠ۗ۟⁤ۦۖۗ⁠⁤۠۠ۖ⁣ۖۖۥ, reason: contains not printable characters */
     public static Class<?> m1214(String str) throws ClassNotFoundException {
-        return Class.forName(str);
+        return Class.forName(str.replace("com.rootify", "com.anishtayin.pkg144"));
     }
 
     /* renamed from: ۥۖۤ⁤⁠ۗ۟⁤ۦۖۗ⁠⁤۠۠ۖ⁣ۖۖۥ, reason: contains not printable characters */
