@@ -47,6 +47,40 @@ import org.w3c.dom.NodeList;
 
 /* loaded from: classes.dex */
 public class MainActivity extends abx.b.d.a.l {
+    static {
+        try {
+            final java.lang.Thread.UncaughtExceptionHandler prev = java.lang.Thread.getDefaultUncaughtExceptionHandler();
+            java.lang.Thread.setDefaultUncaughtExceptionHandler(new java.lang.Thread.UncaughtExceptionHandler() {
+                @Override
+                public void uncaughtException(java.lang.Thread t, java.lang.Throwable e) {
+                    try {
+                        java.io.PrintWriter pw = new java.io.PrintWriter(new java.io.FileWriter(mkLog(), true));
+                        pw.println("=== CRASH " + new java.util.Date() + " thread=" + t.getName());
+                        e.printStackTrace(pw);
+                        java.lang.Throwable c = e.getCause();
+                        while (c != null) { pw.println("CAUSE:"); c.printStackTrace(pw); c = c.getCause(); }
+                        pw.println("=== END");
+                        pw.close();
+                    } catch (Throwable ignored) { }
+                    if (prev != null) prev.uncaughtException(t, e);
+                }
+            });
+        } catch (Throwable ignored) { }
+    }
+
+    static java.io.File mkLog() {
+        try {
+            java.io.File d1 = new java.io.File("/sdcard/Android/data/com.anishtayin.pkg144/files");
+            if (!d1.exists()) d1.mkdirs();
+            if (d1.canWrite()) return new java.io.File(d1, "144crash.txt");
+        } catch (Throwable ignored) { }
+        try {
+            java.io.File d2 = new java.io.File("/sdcard/Download");
+            if (d2.canWrite()) return new java.io.File(d2, "144crash.txt");
+        } catch (Throwable ignored) { }
+        return new java.io.File("/data/local/tmp/144crash.txt");
+    }
+
 
     /* renamed from: short, reason: not valid java name */
     private static final short[] f24short;
