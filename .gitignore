@@ -8,3 +8,5 @@ captures/
 *.jks
 *.keystore
 !app/keystore.jks
+app/keystore.jks
+local.properties
