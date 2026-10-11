@@ -1,0 +1,22 @@
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p024i/InterfaceC0133b.java:10: error: = expected
+    public static final boolean f661a;
+                                     ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p024i/InterfaceC0133b.java:12: error: initializers not allowed in interfaces
+    static {
+           ^
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

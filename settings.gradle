@@ -1,0 +1,2 @@
+rootProject.name = "144Hz"
+include ':app'

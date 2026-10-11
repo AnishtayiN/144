@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbarStyle="insideOverlay"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:fadeScrollbars="false">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/performance_layout"/>
+        <include layout="@layout/cpu_layout"/>
+        <include layout="@layout/power_menu_layout"/>
+        <include layout="@layout/system_details_layout"/>
+        <include layout="@layout/buildprop_layout"/>
+        <include layout="@layout/terminal_layout"/>
+    </RelativeLayout>
+</ScrollView>

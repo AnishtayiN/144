@@ -1,0 +1,484 @@
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:118: error: cannot find symbol
+        public /* synthetic */ e(a aVar) {
+                                 ^
+  symbol:   class a
+  location: class C0004b<K,V>.e
+  where K,V are type-variables:
+    K extends Object declared in class C0004b
+    V extends Object declared in class C0004b
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0032i.java:552: error: cannot find symbol
+        public /* synthetic */ e(a aVar) {
+                                 ^
+  symbol:   class a
+  location: class e
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p031e/p032a/C0182a.java:316: error: method mo620a() is already defined in class C0182a
+    public C0185d.a mo620a() {
+                    ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/ActivityC0046g0.java:17: error: ActivityC0046g0 is not abstract and does not override abstract method mo14a() in InterfaceC0010f
+public class ActivityC0046g0 extends Activity implements InterfaceC0010f, C0109d.a {
+       ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/ComponentCallbacksC0041e.java:376: error: not an enclosing class: ActivityC0043f
+        LayoutInflater cloneInContext = ActivityC0043f.this.getLayoutInflater().cloneInContext(ActivityC0043f.this);
+                                                                                                             ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/ComponentCallbacksC0041e.java:376: error: not an enclosing class: ActivityC0043f
+        LayoutInflater cloneInContext = ActivityC0043f.this.getLayoutInflater().cloneInContext(ActivityC0043f.this);
+                                                      ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/ComponentCallbacksC0041e.java:472: error: incompatible types: C0014j<InterfaceC0010f> cannot be converted to InterfaceC0010f
+            this.f223W.mo23a((C0014j<InterfaceC0010f>) this.f222V);
+                             ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p005b/C0011g.java:103: error: cannot find symbol
+        this.f35g.remove(r0.size() - 1);
+                         ^
+  symbol:   variable r0
+  location: class C0011g
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/LayoutInflaterFactory2C0051k.java:203: error: c is not abstract and does not override abstract method onAnimationEnd(Animation) in AnimationListener
+    public static class c implements Animation.AnimationListener {
+                  ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/LayoutInflaterFactory2C0051k.java:679: error: not an enclosing class: ActivityC0043f
+                    ActivityC0043f.this.mo214h();
+                                  ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/LayoutInflaterFactory2C0051k.java:949: error: incompatible types: bad type in conditional expression
+                C0055o c0055o2 = (list == null || i4 >= list.size()) ? c0019o : list.get(i4);
+                                                                       ^
+    C0019o cannot be converted to C0055o
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/LayoutInflaterFactory2C0051k.java:1088: error: not an enclosing class: ActivityC0043f
+            ActivityC0043f.this.dump("  ", null, printWriter, new String[0]);
+                          ^
+/tmp/doc144/rebuild/app/src/main/java/android/arch/lifecycle/LiveData.java:84: error: incompatible types: LiveData cannot be converted to T
+            LiveData.this.mo23a((LiveData) obj);
+                                ^
+  where T is a type-variable:
+    T extends Object declared in class LiveData
+/tmp/doc144/rebuild/app/src/main/java/android/arch/lifecycle/LiveData.java:176: error: incompatible types: Object cannot be converted to T
+            abstractC0279b.f1585a.m24a(this.f1577d);
+                                           ^
+  where T is a type-variable:
+    T extends Object declared in class LiveData
+/tmp/doc144/rebuild/app/src/main/java/android/arch/lifecycle/LiveData.java:207: error: cannot find symbol
+                    m964a((AbstractC0279b) m6a.next().getValue());
+                                                     ^
+  symbol:   method getValue()
+  location: class Object
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p005b/C0014j.java:11: error: incompatible types: C0014j<T> cannot be converted to T
+        super.mo23a((C0014j<T>) t);
+                    ^
+  where T is a type-variable:
+    T extends Object declared in class C0014j
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:211: error: next() in f cannot implement next() in Iterator
+        public Object next() {
+                      ^
+  return type Object is not compatible with Entry<K,V>
+  where E,K,V are type-variables:
+    E extends Object declared in interface Iterator
+    K extends Object declared in class f
+    V extends Object declared in class f
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:210: error: method does not override or implement a method from a supertype
+        @Override // java.util.Iterator
+        ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:25: error: b is not abstract and does not override abstract method next() in Iterator
+    public static class b<K, V> extends f<K, V> {
+                  ^
+  where K,V are type-variables:
+    K extends Object declared in class b
+    V extends Object declared in class b
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:44: error: c is not abstract and does not override abstract method next() in Iterator
+    public static class c<K, V> extends f<K, V> {
+                  ^
+  where K,V are type-variables:
+    K extends Object declared in class c
+    V extends Object declared in class c
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:110: error: C0004b.e is not abstract and does not override abstract method next() in Iterator
+    public class e implements Iterator<Map.Entry<K, V>>, g<K, V> {
+           ^
+  where K,V are type-variables:
+    K extends Object declared in class C0004b
+    V extends Object declared in class C0004b
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:141: error: next() in C0004b.e cannot implement next() in Iterator
+        public Object next() {
+                      ^
+  return type Object is not compatible with Entry<K,V>
+  where E,K,V are type-variables:
+    E extends Object declared in interface Iterator
+    K extends Object declared in class C0004b
+    V extends Object declared in class C0004b
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:140: error: method does not override or implement a method from a supertype
+        @Override // java.util.Iterator
+        ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p001a/p002a/p004b/C0004b.java:271: error: incompatible types: C0004b<K,V> cannot be converted to K
+        d<K, V> mo4a = mo4a((C0004b<K, V>) k);
+                            ^
+  where K,V are type-variables:
+    K extends Object declared in class C0004b
+    V extends Object declared in class C0004b
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/C0098c.java:349: error: an enclosing instance that contains AbstractC0103h.c is required
+            abstractC0103h.f562b = new AbstractC0103h.c();
+                                   ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:72: error: AbstractC0103h.b is not abstract and does not override abstract method add(Entry<K,V>) in Set
+    public final class b implements Set<Map.Entry<K, V>> {
+                 ^
+  where K,V are type-variables:
+    K extends Object declared in class AbstractC0103h
+    V extends Object declared in class AbstractC0103h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:77: error: name clash: add(Object) in AbstractC0103h.b and add(Entry<K,V>) in Set have the same erasure, yet neither overrides the other
+        public boolean add(Object obj) {
+                       ^
+  where K,V are type-variables:
+    K extends Object declared in class AbstractC0103h
+    V extends Object declared in class AbstractC0103h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:76: error: method does not override or implement a method from a supertype
+        @Override // java.util.Set, java.util.Collection
+        ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:85: error: incompatible types: AbstractC0103h cannot be converted to K
+                AbstractC0103h.this.mo384a((AbstractC0103h) entry.getKey(), (K) entry.getValue());
+                                           ^
+  where K is a type-variable:
+    K extends Object declared in class AbstractC0103h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:281: error: AbstractC0103h.d is not abstract and does not override abstract method next() in Iterator
+    public final class d implements Iterator<Map.Entry<K, V>>, Map.Entry<K, V> {
+                 ^
+  where K,V are type-variables:
+    K extends Object declared in class AbstractC0103h
+    V extends Object declared in class AbstractC0103h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:340: error: next() in AbstractC0103h.d cannot implement next() in Iterator
+        public Object next() {
+                      ^
+  return type Object is not compatible with Entry<K,V>
+  where E,K,V are type-variables:
+    E extends Object declared in interface Iterator
+    K extends Object declared in class AbstractC0103h
+    V extends Object declared in class AbstractC0103h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:339: error: method does not override or implement a method from a supertype
+        @Override // java.util.Iterator
+        ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:363: error: incompatible types: int cannot be converted to V
+                return (V) AbstractC0103h.this.mo381a(this.f572c, (int) v);
+                                                                  ^
+  where V is a type-variable:
+    V extends Object declared in class AbstractC0103h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p020g/AbstractC0103h.java:536: error: incompatible types: Object cannot be converted to T
+            tArr[i2] = mo380a(i2, i);
+                             ^
+  where T is a type-variable:
+    T extends Object declared in method <T>m410a(T[],int)
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0473.java:59: error: cannot find symbol
+            bArr[1009100 ^ ((Integer) C0469.m1839n(62256, (Integer) objArr[0], new Object[0])).intValue()] = (byte) (((Character) C0452.m1695n(25075, str3, new Object[]{Integer.valueOf(r9 % intValue)})).charValue() ^ bArr[r9]);
+                                                                                                                                                                                         ^
+  symbol:   variable r9
+  location: class C0473
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0473.java:59: error: cannot find symbol
+            bArr[1009100 ^ ((Integer) C0469.m1839n(62256, (Integer) objArr[0], new Object[0])).intValue()] = (byte) (((Character) C0452.m1695n(25075, str3, new Object[]{Integer.valueOf(r9 % intValue)})).charValue() ^ bArr[r9]);
+                                                                                                                                                                                                                              ^
+  symbol:   variable r9
+  location: class C0473
+/tmp/doc144/rebuild/app/src/main/java/android/support/v4/widget/NestedScrollView.java:953: error: incompatible types: ViewParent cannot be converted to View
+                    view = parent;
+                           ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v4/widget/NestedScrollView.java:1536: error: cannot find symbol
+                            obtain.offsetLocation(0.0f, r1[1]);
+                                                        ^
+  symbol:   variable r1
+  location: class NestedScrollView
+/tmp/doc144/rebuild/app/src/main/java/android/support/v4/app/LoaderManagerImpl.java:38: error: incompatible types: LoaderViewModel cannot be converted to T
+                return new LoaderViewModel();
+                       ^
+  where T is a type-variable:
+    T extends AbstractC0017m declared in method <T>m974a(Class<T>)
+/tmp/doc144/rebuild/app/src/main/java/android/support/v4/app/LoaderManagerImpl.java:117: error: name clash: mo963a(InterfaceC0015k<? super D>) in C0282a and mo963a(InterfaceC0015k<D>) in LiveData have the same erasure, yet neither overrides the other
+        public void mo963a(InterfaceC0015k<? super D> interfaceC0015k) {
+                    ^
+  where D is a type-variable:
+    D extends Object declared in class C0282a
+/tmp/doc144/rebuild/app/src/main/java/android/support/v4/app/LoaderManagerImpl.java:115: error: method does not override or implement a method from a supertype
+        @Override // android.arch.lifecycle.LiveData
+        ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v4/app/LoaderManagerImpl.java:125: error: incompatible types: C0282a<D> cannot be converted to D
+            super.mo23a((C0282a<D>) d);
+                        ^
+  where D is a type-variable:
+    D extends Object declared in class C0282a
+/tmp/doc144/rebuild/app/src/main/java/androidx/core/graphics/drawable/IconCompatParcelizer.java:27: error: method m1124a in class AbstractC0332a cannot be applied to given types;
+        iconCompat.f1603d = abstractC0332a.m1124a((AbstractC0332a) iconCompat.f1603d, 3);
+                                          ^
+  required: T,int
+  found:    AbstractC0332a,int
+  reason: inference variable T has incompatible bounds
+    lower bounds: Parcelable
+    lower bounds: AbstractC0332a
+  where T is a type-variable:
+    T extends Parcelable declared in method <T>m1124a(T,int)
+/tmp/doc144/rebuild/app/src/main/java/androidx/core/graphics/drawable/IconCompatParcelizer.java:30: error: incompatible types: ColorStateList cannot be converted to AbstractC0332a
+        iconCompat.f1606g = (ColorStateList) abstractC0332a.m1124a((AbstractC0332a) iconCompat.f1606g, 6);
+                                                                                              ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/view/menu/ActionMenuItemView.java:71: error: not an enclosing class: C0222c
+            if (abstractC0292b == null || (aVar = C0222c.this.f1224z) == null) {
+                                                        ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/ActionMenuView.java:153: error: not an enclosing class: Toolbar
+            Toolbar.InterfaceC0328f interfaceC0328f = Toolbar.this.f1945H;
+                                                             ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/ActionMenuView.java:566: error: incompatible types: int cannot be converted to boolean
+                c0301c2.f1838h = r6;
+                                 ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/ActionMenuView.java:569: error: incompatible types: int cannot be converted to boolean
+                c0301c2.f1836f = r6;
+                                 ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p033f/p034i/C0201h.java:504: error: incompatible types: SparseArray<CAP#1> cannot be converted to SparseArray<Parcelable>
+                actionView.saveHierarchyState(sparseArray);
+                                              ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Parcelable from capture of ? extends Parcelable
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0272x.java:281: error: cannot find symbol
+                r9 = colorStateList3;
+                ^
+  symbol:   variable r9
+  location: class C0272x
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0272x.java:300: error: cannot find symbol
+                r9 = c0224c12.m777a(C0175j.TextAppearance_android_textColor);
+                ^
+  symbol:   variable r9
+  location: class C0272x
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0272x.java:314: error: cannot find symbol
+        if (r9 != null) {
+            ^
+  symbol:   variable r9
+  location: class C0272x
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0272x.java:315: error: cannot find symbol
+            this.f1532a.setTextColor(r9);
+                                     ^
+  symbol:   variable r9
+  location: class C0272x
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0276z.java:113: error: incompatible types: boolean cannot be converted to String
+                int measuredWidth = ((Boolean) m944a((Object) this.f1565i, "getHorizontallyScrolling", (String) false)).booleanValue() ? 1048576 : (this.f1565i.getMeasuredWidth() - this.f1565i.getTotalPaddingLeft()) - this.f1565i.getTotalPaddingRight();
+                                                                                                                ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0276z.java:233: error: cannot find symbol
+            this.f1561e = iArr[r0 - 1];
+                               ^
+  symbol:   variable r0
+  location: class C0276z
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0243j.java:125: error: incompatible types: Integer cannot be converted to c
+            return m405a((c) Integer.valueOf(mode.hashCode() + ((i + 31) * 31)));
+                                            ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0243j.java:130: error: incompatible types: Integer cannot be converted to c
+            return m406a((c) Integer.valueOf(mode.hashCode() + ((i + 31) * 31)), (Integer) porterDuffColorFilter);
+                                            ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0243j.java:130: error: incompatible types: PorterDuffColorFilter cannot be converted to Integer
+            return m406a((c) Integer.valueOf(mode.hashCode() + ((i + 31) * 31)), (Integer) porterDuffColorFilter);
+                                                                                           ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p033f/p034i/AbstractC0195b.java:57: error: incompatible types: bad type in conditional expression
+        ActionMenuItemView actionMenuItemView = view instanceof InterfaceC0210q.a ? (InterfaceC0210q.a) view : (InterfaceC0210q.a) this.f1015e.inflate(this.f1018h, viewGroup, false);
+                                                                                    ^
+    a cannot be converted to ActionMenuItemView
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p033f/p034i/AbstractC0195b.java:57: error: incompatible types: bad type in conditional expression
+        ActionMenuItemView actionMenuItemView = view instanceof InterfaceC0210q.a ? (InterfaceC0210q.a) view : (InterfaceC0210q.a) this.f1015e.inflate(this.f1018h, viewGroup, false);
+                                                                                                               ^
+    a cannot be converted to ActionMenuItemView
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/C0121p.java:73: error: not an enclosing class: C0165y
+            ((View) C0165y.this.f819d.getParent()).invalidate();
+                          ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/AbstractC0106a.java:25: error: b is not abstract and does not override abstract method newArray(int) in Creator
+    public static class b implements Parcelable.ClassLoaderCreator<AbstractC0106a> {
+                  ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/AbstractC0106a.java:41: error: newArray(int) in b cannot implement newArray(int) in Creator
+        public Object[] newArray(int i) {
+                        ^
+  return type Object[] is not compatible with AbstractC0106a[]
+  where T is a type-variable:
+    T extends Object declared in interface Creator
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/AbstractC0106a.java:36: error: createFromParcel(Parcel) in b cannot implement createFromParcel(Parcel) in Creator
+        public Object createFromParcel(Parcel parcel) {
+                      ^
+  return type Object is not compatible with AbstractC0106a
+  where T is a type-variable:
+    T extends Object declared in interface Creator
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/AbstractC0106a.java:35: error: method does not override or implement a method from a supertype
+        @Override // android.os.Parcelable.Creator
+        ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/AbstractC0106a.java:40: error: method does not override or implement a method from a supertype
+        @Override // android.os.Parcelable.Creator
+        ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/SearchView.java:586: error: a is not abstract and does not override abstract method newArray(int) in Creator
+        public static class a implements Parcelable.ClassLoaderCreator<C0321o> {
+                      ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/SearchView.java:598: error: newArray(int) in a cannot implement newArray(int) in Creator
+            public Object[] newArray(int i) {
+                            ^
+  return type Object[] is not compatible with C0321o[]
+  where T is a type-variable:
+    T extends Object declared in interface Creator
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/SearchView.java:588: error: createFromParcel(Parcel) in a cannot implement createFromParcel(Parcel) in Creator
+            public Object createFromParcel(Parcel parcel) {
+                          ^
+  return type Object is not compatible with C0321o
+  where T is a type-variable:
+    T extends Object declared in interface Creator
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/SearchView.java:587: error: method does not override or implement a method from a supertype
+            @Override // android.os.Parcelable.Creator
+            ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/SearchView.java:597: error: method does not override or implement a method from a supertype
+            @Override // android.os.Parcelable.Creator
+            ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p035g/C0269v0.java:36: error: no suitable constructor found for HorizontalScrollView(no arguments)
+public class C0269v0 extends HorizontalScrollView implements AdapterView.OnItemSelectedListener {
+       ^
+    constructor HorizontalScrollView.HorizontalScrollView(Context) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor HorizontalScrollView.HorizontalScrollView(Context,AttributeSet) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor HorizontalScrollView.HorizontalScrollView(Context,AttributeSet,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor HorizontalScrollView.HorizontalScrollView(Context,AttributeSet,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/DialogTitle.java:37: error: int cannot be dereferenced
+        TypedArray obtainStyledAttributes = getContext().obtainStyledAttributes(null, C0175j.TextAppearance, R.attr.textAppearanceMedium, R.style.TextAppearance.Medium);
+                                                                                                                                                                ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/Toolbar.java:202: error: Toolbar.C0326d is not abstract and does not override abstract method mo660a(a) in InterfaceC0209p
+    public class C0326d implements InterfaceC0209p {
+           ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/Toolbar.java:389: error: a is not abstract and does not override abstract method newArray(int) in Creator
+        public static class a implements Parcelable.ClassLoaderCreator<C0329g> {
+                      ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/Toolbar.java:401: error: newArray(int) in a cannot implement newArray(int) in Creator
+            public Object[] newArray(int i) {
+                            ^
+  return type Object[] is not compatible with C0329g[]
+  where T is a type-variable:
+    T extends Object declared in interface Creator
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/Toolbar.java:391: error: createFromParcel(Parcel) in a cannot implement createFromParcel(Parcel) in Creator
+            public Object createFromParcel(Parcel parcel) {
+                          ^
+  return type Object is not compatible with C0329g
+  where T is a type-variable:
+    T extends Object declared in interface Creator
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/Toolbar.java:390: error: method does not override or implement a method from a supertype
+            @Override // android.os.Parcelable.Creator
+            ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/Toolbar.java:400: error: method does not override or implement a method from a supertype
+            @Override // android.os.Parcelable.Creator
+            ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p021h/C0123r.java:7: error: C0123r is not abstract and does not override abstract method mo495a(View) in InterfaceC0122q
+public class C0123r implements InterfaceC0122q {
+       ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p026a/DialogC0162v.java:40: error: no suitable constructor found for Dialog(no arguments)
+    public DialogC0162v(android.content.Context r4, int r5) {
+                                                            ^
+    constructor Dialog.Dialog(Context) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Dialog.Dialog(Context,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Dialog.Dialog(Context,boolean,OnCancelListener) is not applicable
+      (actual and formal argument lists differ in length)
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p014c/C0084h.java:112: error: cannot find symbol
+            th = th2;
+            ^
+  symbol:   variable th
+  location: class C0084h
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p018e/C0093b.java:248: error: incompatible types: String cannot be converted to C0102g<String,Typeface>
+        Typeface m405a = f483a.m405a((C0102g<String, Typeface>) str);
+                                                                ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p011a/C0063w.java:286: error: an enclosing instance that contains C0064x.a is required
+                ((Transition) obj2).setEpicenterCallback(new C0064x.a(c0064x, rect));
+                                                         ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0026c.java:370: error: cannot find symbol
+                                e = e2;
+                                ^
+  symbol:   variable e
+  location: class C0026c
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0026c.java:377: error: cannot find symbol
+                                e = e3;
+                                ^
+  symbol:   variable e
+  location: class C0026c
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0026c.java:379: error: cannot find symbol
+                                notFoundException.initCause(e);
+                                                            ^
+  symbol:   variable e
+  location: class C0026c
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0026c.java:382: error: cannot find symbol
+                                e = e4;
+                                ^
+  symbol:   variable e
+  location: class C0026c
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0026c.java:384: error: cannot find symbol
+                                notFoundException2.initCause(e);
+                                                             ^
+  symbol:   variable e
+  location: class C0026c
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:487: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return PropertyValuesHolder.ofObject(str, new C0028e(), m87a2);
+                                                                        ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:493: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            ofObject = PropertyValuesHolder.ofObject(str, c0028e, m87a);
+                                                                  ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:708: error: incompatible types: int[] cannot be converted to int[][]
+                    iArr = r8;
+                           ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1399: error: cannot find symbol
+            th = th2;
+            ^
+  symbol:   variable th
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1406: error: cannot find symbol
+            throw th;
+                  ^
+  symbol:   variable th
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1440: error: cannot find symbol
+            e = e2;
+            ^
+  symbol:   variable e
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1442: error: cannot find symbol
+            Log.e("TypefaceCompatUtil", "Error copying resource contents to temp file: " + e.getMessage());
+                                                                                           ^
+  symbol:   variable e
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1452: error: cannot find symbol
+            th = th2;
+            ^
+  symbol:   variable th
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1461: error: cannot find symbol
+            throw th;
+                  ^
+  symbol:   variable th
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:1628: error: cannot find symbol
+            textView.setLineSpacing(i - r0, 1.0f);
+                                        ^
+  symbol:   variable r0
+  location: class C0027d
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p033f/p034i/C0206m.java:54: error: not an enclosing class: C0204k
+                C0204k.this.f1127n.m714i();
+                      ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p026a/DialogInterfaceC0151k.java:206: error: incompatible types: int cannot be converted to boolean
+        boolean z3 = (m1007a == null || m1007a.getVisibility() == 8) ? 0 : 1;
+                                                                     ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p025d/p026a/DialogInterfaceC0151k.java:211: error: incomparable types: boolean and int
+        if (z3 != 0) {
+               ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+2 warnings
+only showing the first 100 errors, of 148 total; use -Xmaxerrs if you would like to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13s

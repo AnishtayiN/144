@@ -1,0 +1,405 @@
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:452: error: unreachable statement
+                        break;
+                        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:471: error: unreachable statement
+        return obj;
+        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:988: error: unreachable statement
+                                    String str = strArr[i3];
+                                           ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1007: error: unreachable statement
+                                    m1246(sb, str);
+                                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1019: error: unreachable statement
+                                    break;
+                                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1024: error: unreachable statement
+                    break;
+                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1027: error: unreachable statement
+        short[] m12584 = m1258();
+                ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1090: error: unreachable statement
+                                                break;
+                                                ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1093: error: unreachable statement
+                                    break;
+                                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1096: error: unreachable statement
+                        i = 1 - (0 - i);
+                        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1108: error: unreachable statement
+                        break;
+                        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1112: error: unreachable statement
+        int i7 = 1516214;
+            ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1213: error: unreachable statement
+                                                                        break;
+                                                                        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1216: error: unreachable statement
+                                                            break;
+                                                            ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1229: error: unreachable statement
+                                                            break;
+                                                            ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1233: error: unreachable statement
+                                            break;
+                                            ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1236: error: unreachable statement
+                                break;
+                                ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1258: error: unreachable statement
+                                            break;
+                                            ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1264: error: unreachable statement
+                                int i11 = 1539216;
+                                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1275: error: unreachable statement
+                                break;
+                                ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1278: error: unreachable statement
+                    break;
+                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1304: error: unreachable statement
+                                break;
+                                ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1307: error: unreachable statement
+                    break;
+                    ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1399: error: unreachable statement
+                        break;
+                        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/C0111.java:1958: error: unreachable statement
+                        break;
+                        ^
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:98: error: Illegal static declaration in inner class MainActivity.a
+        private static final short[] f25short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:103: error: Illegal static declaration in inner class MainActivity.a
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:119: error: Illegal static declaration in inner class MainActivity.a
+        public static int m1091(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:127: error: Illegal static declaration in inner class MainActivity.a
+        public static String m1092(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:135: error: Illegal static declaration in inner class MainActivity.a
+        public static short[] m1093() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:153: error: Illegal static declaration in inner class MainActivity.a0
+        private static final short[] f26short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:155: error: Illegal static declaration in inner class MainActivity.a0
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:273: error: Illegal static declaration in inner class MainActivity.a0
+        public static String m1094(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:281: error: Illegal static declaration in inner class MainActivity.a0
+        public static short[] m1095() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:289: error: Illegal static declaration in inner class MainActivity.a0
+        public static String m1096(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:297: error: Illegal static declaration in inner class MainActivity.a0
+        public static int m1097(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:307: error: cannot find symbol
+                C0101.n(46515, null, new Object[]{(MainActivity) C0048.n(59107, null, new Object[]{this}), new c.b.f(this)});
+                                                                                                                ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:313: error: cannot find symbol
+                C0101.n(46515, null, new Object[]{(MainActivity) C0048.n(59107, null, new Object[]{this}), new c.b.g(this)});
+                                                                                                                ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:318: error: cannot find symbol
+            C0101.n(46515, null, new Object[]{(MainActivity) C0048.n(59107, null, new Object[]{this}), new c.b.d(this)});
+                                                                                                            ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:324: error: cannot find symbol
+            C0101.n(46515, null, new Object[]{(MainActivity) C0048.n(59107, null, new Object[]{this}), new c.b.e(this)});
+                                                                                                            ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:373: error: Illegal static declaration in inner class MainActivity.b0
+        private static final short[] f27short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:375: error: Illegal static declaration in inner class MainActivity.b0
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:499: error: Illegal static declaration in inner class MainActivity.b0
+        public static String m1098(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:507: error: Illegal static declaration in inner class MainActivity.b0
+        public static short[] m1099() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:515: error: Illegal static declaration in inner class MainActivity.b0
+        public static String m1100(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:523: error: Illegal static declaration in inner class MainActivity.b0
+        public static int m1101(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:531: error: Illegal static declaration in inner class MainActivity.b0
+        public static String m1102(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:540: error: cannot find symbol
+            C0101.n(46515, null, new Object[]{(MainActivity) C0109.n(3248, null, new Object[]{this}), new c.b.h(this)});
+                                                                                                           ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:542: error: cannot find symbol
+            C0101.n(46515, null, new Object[]{(MainActivity) C0109.n(3248, null, new Object[]{this}), new c.b.i(this)});
+                                                                                                           ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:572: error: Illegal static declaration in inner class MainActivity.c
+        private static final short[] f28short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:574: error: Illegal static declaration in inner class MainActivity.c
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:712: error: Illegal static declaration in inner class MainActivity.c
+        public static short[] m1103() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:720: error: Illegal static declaration in inner class MainActivity.c
+        public static String m1104(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:728: error: Illegal static declaration in inner class MainActivity.c
+        public static String m1105(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:736: error: Illegal static declaration in inner class MainActivity.c
+        public static String m1106(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:744: error: Illegal static declaration in inner class MainActivity.c
+        public static String m1107(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:752: error: Illegal static declaration in inner class MainActivity.c
+        public static int m1108(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:762: error: cannot find symbol
+                return (Resources) C0052.n(48685, (a.b.d.a.l) obj, new Object[0]);
+                                                    ^
+  symbol:   class b
+  location: class MainActivity.a
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:760: error: Illegal static declaration in inner class MainActivity.c
+        public static Resources m1109(Object obj) {
+                                ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:830: error: Illegal static declaration in inner class MainActivity.c0
+        private static final short[] f29short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:832: error: Illegal static declaration in inner class MainActivity.c0
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:938: error: Illegal static declaration in inner class MainActivity.c0
+        public static String m1110(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:946: error: Illegal static declaration in inner class MainActivity.c0
+        public static short[] m1111() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:954: error: Illegal static declaration in inner class MainActivity.c0
+        public static String m1112(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:962: error: Illegal static declaration in inner class MainActivity.c0
+        public static int m1113(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:970: error: Illegal static declaration in inner class MainActivity.c0
+        public static String m1114(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:979: error: cannot find symbol
+            C0101.n(46515, null, new Object[]{(MainActivity) C0060.n(35541, null, new Object[]{this}), new c.b.j(this)});
+                                                                                                            ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:981: error: cannot find symbol
+            C0101.n(46515, null, new Object[]{(MainActivity) C0060.n(35541, null, new Object[]{this}), new c.b.k(this)});
+                                                                                                            ^
+  symbol:   class b
+  location: class MainActivity.c
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1011: error: Illegal static declaration in inner class MainActivity.d
+        private static final short[] f30short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1020: error: Illegal static declaration in inner class MainActivity.d
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1039: error: Illegal static declaration in inner class MainActivity.d
+        public static int m1115(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1047: error: Illegal static declaration in inner class MainActivity.d
+        public static String m1116(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1055: error: Illegal static declaration in inner class MainActivity.d
+        public static short[] m1117() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1083: error: Illegal static declaration in inner class MainActivity.d0
+        private static final short[] f31short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1088: error: Illegal static declaration in inner class MainActivity.d0
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1466: error: Illegal static declaration in inner class MainActivity.d0
+        public static String m1118(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1474: error: Illegal static declaration in inner class MainActivity.d0
+        public static short[] m1119() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1482: error: Illegal static declaration in inner class MainActivity.d0
+        public static String m1120(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1490: error: Illegal static declaration in inner class MainActivity.d0
+        public static String m1121(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1498: error: Illegal static declaration in inner class MainActivity.d0
+        public static int m1122(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1506: error: Illegal static declaration in inner class MainActivity.d0
+        public static String m1123(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1574: error: Illegal static declaration in inner class MainActivity.e0
+        private static final short[] f32short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1576: error: Illegal static declaration in inner class MainActivity.e0
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1607: error: Illegal static declaration in inner class MainActivity.e0
+        public static String m1124(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1615: error: Illegal static declaration in inner class MainActivity.e0
+        public static int m1125(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1623: error: Illegal static declaration in inner class MainActivity.e0
+        public static short[] m1126() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1657: error: Illegal static declaration in inner class MainActivity.f
+        private static final short[] f33short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1700: error: Illegal static declaration in inner class MainActivity.f
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1735: error: Illegal static declaration in inner class MainActivity.f
+        public static int m1127(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1743: error: Illegal static declaration in inner class MainActivity.f
+        public static String m1128(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1751: error: Illegal static declaration in inner class MainActivity.f
+        public static String m1129(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1759: error: Illegal static declaration in inner class MainActivity.f
+        public static String m1130(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1767: error: Illegal static declaration in inner class MainActivity.f
+        public static short[] m1131() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1881: error: Illegal static declaration in inner class MainActivity.f0
+        private static final short[] f34short;
+                                     ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:1889: error: Illegal static declaration in inner class MainActivity.f0
+        static {
+        ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:2115: error: Illegal static declaration in inner class MainActivity.f0
+        public static int m1132(Object obj) {
+                          ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:2123: error: Illegal static declaration in inner class MainActivity.f0
+        public static String m1133(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:2131: error: Illegal static declaration in inner class MainActivity.f0
+        public static short[] m1134() {
+                              ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:2139: error: Illegal static declaration in inner class MainActivity.f0
+        public static String m1135(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+/tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java:2147: error: Illegal static declaration in inner class MainActivity.f0
+        public static String m1136(Object obj, int i, int i2, int i3) {
+                             ^
+  modifier 'static' is only allowed in constant variable declarations
+Note: /tmp/doc144/rebuild/app/src/main/java/com/rootify/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+only showing the first 100 errors, of 224 total; use -Xmaxerrs if you would like to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s

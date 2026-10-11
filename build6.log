@@ -1,0 +1,49 @@
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/ActionMenuView.java:498: error: illegal start of expression
+        ?? r6;
+        ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/ActionMenuView.java:498: error: illegal start of expression
+        ?? r6;
+         ^
+/tmp/doc144/rebuild/app/src/main/java/android/support/v7/widget/ActionMenuView.java:498: error: : expected
+        ?? r6;
+             ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p024i/InterfaceC0133b.java:10: error: = expected
+    public static final boolean f661a;
+                                     ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p010c/p024i/InterfaceC0133b.java:12: error: initializers not allowed in interfaces
+    static {
+           ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:706: error: illegal start of expression
+                    ?? r8 = (Object[]) Array.newInstance(iArr.getClass().getComponentType(), C0075g.m327a(i2));
+                    ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:706: error: illegal start of expression
+                    ?? r8 = (Object[]) Array.newInstance(iArr.getClass().getComponentType(), C0075g.m327a(i2));
+                     ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0027d.java:706: error: : expected
+                    ?? r8 = (Object[]) Array.newInstance(iArr.getClass().getComponentType(), C0075g.m327a(i2));
+                                                                                                              ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0032i.java:735: error: illegal start of expression
+            ?? r11 = 0;
+            ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0032i.java:735: error: illegal start of expression
+            ?? r11 = 0;
+             ^
+/tmp/doc144/rebuild/app/src/main/java/p000a/p006b/p008b/p009a/C0032i.java:735: error: : expected
+            ?? r11 = 0;
+                      ^
+11 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s

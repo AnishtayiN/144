@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/powerMenuLL"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="confirmationCheckBoxClickMethod"
+        card_view:cardCornerRadius="4dp">
+        <CheckBox
+            android:id="@+id/pmConfirmationBox"
+            android:padding="4dp"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/StringLayout_confirm_action"/>
+    </android.support.v7.widget.CardView>
+    <ListView
+        android:entries="@array/StringARRAYpowerMenuStringArray"
+        android:id="@+id/powerMenuList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="StringARRAYpowerMenuStringArray">
+        <item>Shutdown</item>
+        <item>Restart</item>
+        <item>Reboot to safe mode</item>
+        <item>Reboot to bootloader</item>
+        <item>Reboot to recovery</item>
+        <item>Hot reboot</item>
+    </array>
+    <array name="cpuOffState">
+        <item>@string/cpu0off</item>
+        <item>@string/cpu1off</item>
+        <item>@string/cpu2off</item>
+        <item>@string/cpu3off</item>
+        <item>@string/cpu4off</item>
+        <item>@string/cpu5off</item>
+        <item>@string/cpu6off</item>
+        <item>@string/cpu7off</item>
+        <item>@string/cpu8off</item>
+        <item>@string/cpu9off</item>
+    </array>
+    <array name="cpuOnState">
+        <item>@string/cpu0on</item>
+        <item>@string/cpu1on</item>
+        <item>@string/cpu2on</item>
+        <item>@string/cpu3on</item>
+        <item>@string/cpu4on</item>
+        <item>@string/cpu5on</item>
+        <item>@string/cpu6on</item>
+        <item>@string/cpu7on</item>
+        <item>@string/cpu8on</item>
+        <item>@string/cpu9on</item>
+    </array>
+</resources>

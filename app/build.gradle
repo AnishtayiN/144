@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+// کلاس‌های کتابخانه‌ای (appcompat و...) از جار اصلیِ داخل APK (compileOnly نمی‌خواد — runtime داخل APK هست)
+// چون dex2jar مستقیم نمی‌تونه jar بده، این جار از classes.dex ساخته شده:
+def libJar = file('libs/app-libs-noroot.jar')
+if (!libJar.exists()) {
+    throw new GradleException('libs/app-libs-noroot.jar missing!')
+}
+
+android {
+    namespace 'com.rootify'
+    compileSdk 28
+
+    defaultConfig {
+        applicationId "com.rootify"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 15
+        versionName "2.1.9"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(System.getenv("KS_FILE") ?: "keystore.jks")
+            storePassword System.getenv("KS_PASS") ?: ""
+            keyAlias System.getenv("KS_ALIAS") ?: "key"
+            keyPassword System.getenv("KS_KEY_PASS") ?: ""
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation files('libs/app-libs-noroot.jar')
+}
